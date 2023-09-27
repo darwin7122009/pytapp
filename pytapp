@@ -1,0 +1,14 @@
+import pywhatkit
+
+# Telefonní číslo jako řetězec
+telefonni_cislo = "+420604159956"
+
+# Zpráva, kterou chcete odeslat
+zprava = "Ahoj štěpo, já jsem Máťův automatický program který ti bude psát tuto správu každý den v tuhle chvíly dokud se nenaučíš odepisovat."
+
+# Čas odeslání (hodiny a minuty)
+hodiny = 22
+minuty = 40
+
+# Odeslat zprávu
+pywhatkit.sendwhatmsg(telefonni_cislo, zprava, hodiny, minuty)
